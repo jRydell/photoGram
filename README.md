@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React, TypeScript & Firebase - Social Media App
 
 ## 📌 Om projektet
@@ -61,3 +62,12 @@ Tutorial: [YouTube-video](https://www.youtube.com/watch?v=<tutorial-video-url>)
 ---
 
 📌 **Denna README uppdateras löpande i takt med att projektet utvecklas!**
+=======
+React, TypeScript & Firebase - Social Media App
+
+
+
+Detta projekt är baserat på en tutorial av Dipesh Malvia och demonstrerar hur man bygger en fullstack social media-app med React, TypeScript och Firebase.
+https://www.youtube.com/watch?v=OKIaDk8sIbM
+
+>>>>>>> 9709075cf7d6556bffbc466dcb33230c077209fe
