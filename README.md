@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# React, TypeScript & Firebase - Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Om projektet
 
-Currently, two official plugins are available:
+Detta projekt är baserat på en tutorial av Dipesh Malvia och demonstrerar hur man bygger en fullstack social media-app med React, TypeScript och Firebase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Teknologier och verktyg
 
-## Expanding the ESLint configuration
+- **React** - Komponentbaserad UI-utveckling
+- **TypeScript** - Starkt typat JavaScript
+- **Firebase**
+  - Authentication
+  - Firestore Database
+  - Hosting
+  - Firestore Rules
+- **ShadCN UI** - UI-komponenter
+- **TailwindCSS** - CSS-ramverk för styling
+- **Uploadcare** - Hantering av bilduppladdning
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Funktionalitet
 
-- Configure the top-level `parserOptions` property like this:
+- Användarautentisering med Firebase Authentication
+- CRUD-operationer med Firestore
+- Uppladdning och hämtning av bilder via Uploadcare
+- Regler för dataskydd i Firestore
+- Deployment och hosting med Firebase
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠 Installation och körning
+
+1. Klona repot:
+   ```bash
+   git clone <repo-url>
+   cd <projektmapp>
+   ```
+2. Installera beroenden:
+   ```bash
+   npm install
+   ```
+3. Konfigurera Firebase:
+   - Skapa ett Firebase-projekt
+   - Aktivera Authentication och Firestore
+   - Lägg till konfigurationsuppgifterna i en `.env`-fil
+4. Starta utvecklingsservern:
+   ```bash
+   npm run dev
+   ```
+
+## 🌍 Deployment
+
+För att deploya till Firebase Hosting:
+
+```bash
+npm run build
+firebase deploy
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📜 Källa
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Tutorial: [YouTube-video](https://www.youtube.com/watch?v=<tutorial-video-url>)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+📌 **Denna README uppdateras löpande i takt med att projektet utvecklas!**
