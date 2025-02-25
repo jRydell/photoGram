@@ -6,16 +6,16 @@ Detta projekt är baserat på en tutorial av Dipesh Malvia och demonstrerar hur 
 
 ## 📚 Teknologier och verktyg
 
-- **React** - Komponentbaserad UI-utveckling
-- **TypeScript** - Starkt typat JavaScript
+- **React** - 
+- **TypeScript** - 
 - **Firebase**
   - Authentication
   - Firestore Database
   - Hosting
   - Firestore Rules
-- **ShadCN UI** - UI-komponenter
-- **TailwindCSS** - CSS-ramverk för styling
-- **Uploadcare** - Hantering av bilduppladdning
+- **ShadCN UI** - 
+- **TailwindCSS** 
+- **Uploadcare** - 
 
 ## 🚀 Funktionalitet
 
@@ -32,7 +32,7 @@ Detta projekt är baserat på en tutorial av Dipesh Malvia och demonstrerar hur 
    git clone <repo-url>
    cd <projektmapp>
    ```
-2. Installera beroenden:
+2. Installera dependencies:
    ```bash
    npm install
    ```
@@ -60,4 +60,3 @@ Tutorial: [YouTube-video](https://www.youtube.com/watch?v=<tutorial-video-url>)
 
 ---
 
-📌 **Denna README uppdateras löpande i takt med att projektet utvecklas!**
