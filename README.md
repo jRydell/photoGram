@@ -1,10 +1,10 @@
-React, TypeScript & Firebase - Social Media App
+#React, TypeScript & Firebase - Social Media App
 
-📌 Om projektet
+##📌 Om projektet
 
 Detta projekt är baserat på en tutorial av Dipesh Malvia och demonstrerar hur man bygger en fullstack social media-app med React, TypeScript och Firebase.
 
-📚 Teknologier och verktyg
+##📚 Teknologier och verktyg
 
 React - Komponentbaserad UI-utveckling
 
@@ -26,7 +26,7 @@ TailwindCSS - CSS-ramverk för styling
 
 Uploadcare - Hantering av bilduppladdning
 
-🚀 Funktionalitet
+##🚀 Funktionalitet
 
 Användarautentisering med Firebase Authentication
 
@@ -38,7 +38,7 @@ Regler för dataskydd i Firestore
 
 Deployment och hosting med Firebase
 
-🛠 Installation och körning
+##🛠 Installation och körning
 
 Klona repot:
 
@@ -61,13 +61,13 @@ Starta utvecklingsservern:
 
 npm run dev
 
-🌍 Deployment
+##🌍 Deployment
 
 För att deploya till Firebase Hosting:
 
 npm run build
 firebase deploy
 
-📜 Källa
+##📜 Källa
 
 Tutorial: YouTube-video
